@@ -1,0 +1,141 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  width: 100%;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 0;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 6.6px;
+  cursor: pointer;
+}
+
+.header-brand img {
+  width: 31px;
+}
+
+.header-brand-text {
+  font-family: Karla;
+  font-size: 20.748px;
+  font-weight: 700;
+  letter-spacing: -1.7px;
+}
+
+.header-desc p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  width: 100%;
+
+}
+
+.form-input {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  width: 100%;
+}
+
+input {
+  padding: 10px 11px;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  outline: none;
+  color: #0D0D0D;
+  font-family: Karla;
+  font-size: 12px;
+  font-weight: 400;
+  width: 100%;
+}
+
+button {
+  color: #fff;
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  border: none;
+  outline: none;
+  background: transparent;
+  gap: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #711F8D 1.14%, #A818DA 100%);
+}
+
+button img {
+  display: flex;
+}
+
+.hero {
+  width: 100%;
+}
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.hero-img h2 {
+  position: absolute;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.top {
+  top: 20px;
+}
+
+.bottom {
+  bottom: 20px;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 540px;
+  object-fit: cover;
+}
